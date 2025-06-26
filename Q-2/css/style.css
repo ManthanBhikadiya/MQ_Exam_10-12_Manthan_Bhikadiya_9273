@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: lightgray;
+    padding: 40px;
+}
+
+.blog-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    padding: 40px;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.blog-text h2 {
+    font-size: 20px;
+    color: #9eb8a6;
+    margin-bottom: 10px;
+}
+
+.blog-text p {
+    max-width: 600px;
+    font-size: 15px;
+    color: #444;
+    text-align: justify;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}

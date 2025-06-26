@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    .blog-card {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blog-card .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .blog-text h2 {
+        font-size: 18px;
+    }
+
+    .blog-text p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:576px) {
+    body {
+        padding: 10px;
+    }
+}
+
+@media(max-width:320px) {
+    body {
+        padding: 10px;
+    }
+}
